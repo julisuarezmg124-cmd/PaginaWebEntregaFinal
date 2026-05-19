@@ -1,0 +1,22 @@
+.img4{
+    width: 200px;
+}
+.img5{
+    width: 300px;
+    height: 415px;
+}
+.navbar{
+    position: fixed ;
+    background-color: #f80505;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+.navatajos{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px;
+    
+}
