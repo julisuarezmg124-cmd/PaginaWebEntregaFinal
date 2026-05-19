@@ -1,0 +1,12 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin media-screen{
+        width: 45%;
+        width: 23%;
+        height: auto;
+        padding: 5px;
+        margin: 0 auto;
+}
