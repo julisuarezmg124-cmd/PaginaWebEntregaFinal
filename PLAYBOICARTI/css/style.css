@@ -1,15 +1,22 @@
+.body{
+    font-family: "Roboto", sans-serif;
+;
+}
 .img4{
     width: 200px;
 }
 .img5{
-    width: 300px;
-    height: 415px;
+    width: 270px;
+    height: 400px;
+    
 }
 .navbar{
     position: fixed ;
     background-color: #f80505;
     font-size: 20px;
     box-sizing: border-box;
+    min-width: 360px;
+    width: 100%;
 
 }
 .navatajos{
@@ -18,5 +25,71 @@
     text-transform: uppercase;
     padding: 5px;
     margin: 5px;
+    
+}
+
+.card{
+    background-color: #f70000;
+
+}
+.card-text{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+.main{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .img4{
+        width: 40%;
+        height: auto;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .img5{
+        width: 45%;
+        height: auto;
+        padding: 15px;
+        margin: 0 auto;}
+}
+@media screen and (max-width: 500px) {
+    .navbar{
+        width: 100%;
+        
+    }
+    .img1{
+        width: 45%;
+        width: 45%;
+        height: auto;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    }
+    @media screen and (max-width: 1400px) {
+        .img5{
+            width: 45%;
+        width: 23%;
+        height: auto;
+        padding: 5px;
+        margin: 0 auto;
+        }
+        
+            
+        }
+    
+
+.titulos{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #ca0404;
+}
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
     
 }
